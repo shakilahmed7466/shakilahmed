@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakil Ahmed - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-image: url('assets/header-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        header p {
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 2px #000000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0073e6;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #005bb5;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin: 2rem 0;
+        }
+        section h2 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #0073e6;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 1rem auto;
+            display: block;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skill {
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 0.5rem;
+            flex: 1 1 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Shakil Ahmed</h1>
+    <p>Student at Ahsanullah University of Science and Technology</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="assets/profile-pic.jpg" alt="Shakil Ahmed" class="profile-pic">
+        <p>My name is Shakil Ahmed. I am currently a student at Ahsanullah University of Science and Technology, studying in the IPE (Industrial and Production Engineering) program. I completed my college education at Adamjee Cantonment College and my school education at Brahmondi KKM Govt High School. I am fluent in English, Bangla, Urdu, Hindi, German, and Arabic.</p>
+        <p>My ambition is to pursue my master's degree in Germany and to secure a future job at a prestigious automotive company like BMW or Mercedes-Benz. I am passionate about engineering, technology, and the automotive industry.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Details of my projects will be added here.</p>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <p>Details of my achievements will be added here.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">Fluent in English</div>
+            <div class="skill">Fluent in Bangla</div>
+            <div class="skill">Fluent in Urdu</div>
+            <div class="skill">Fluent in Hindi</div>
+            <div class="skill">Fluent in German</div>
+            <div class="skill">Fluent in Arabic</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>Follow me on LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Shakil Ahmed. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
